@@ -1,4 +1,4 @@
-echo deploy project
+echo deploy project git pull
 
 # 拉取最新代码
 git pull
