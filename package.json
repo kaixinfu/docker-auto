@@ -1,0 +1,23 @@
+{
+  "name": "docker-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webhooks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timer2/docker-auto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timer2/docker-auto/issues"
+  },
+  "homepage": "https://github.com/timer2/docker-auto#readme",
+  "dependencies": {
+    "github-webhook-handler": "^1.0.0"
+  }
+}

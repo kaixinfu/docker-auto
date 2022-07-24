@@ -4,7 +4,7 @@ services:
     restart: always
     image: nginx
     ports:
-      - 7777:80
+      - 9527:80
     volumes:
       - ./nginx/conf.d/:/etc/nginx/conf.d
       - ./react-auto/build:/var/www/html/
