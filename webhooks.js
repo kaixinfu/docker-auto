@@ -35,10 +35,12 @@ handler.on('error', (err) => {
   console.error('error', err.message)
 })
 
-handler.on('*', (e) => {
-  console.log('receive * ')
-  // 执行shall脚本
-  run_cmd('sh', ['./deploy-dev.sh'], function (res) {
-    console.log('run_cmd.res', res)
-  })
+handler.on('push', (e) => {
+  if (e.payload.ref === "refs/heads/main") {
+    console.log('receive main push')
+    // 执行shall脚本
+    run_cmd('sh', ['./deploy-dev.sh'], function (res) {
+      console.log('run_cmd.res', res)
+    })
+  }
 })
