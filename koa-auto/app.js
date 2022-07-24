@@ -22,6 +22,7 @@ router.get("/api/user", async (ctx, next) => {
 router.get("/api/users", async (ctx, next) => {
   ctx.body = [
     { name: "kk", age: 30 },
+    { name: "ff", age: 30 },
     { name: "tt", age: 0 },
   ];
   await next();
