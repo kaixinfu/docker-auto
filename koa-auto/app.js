@@ -22,7 +22,7 @@ router.get("/api/user", async (ctx, next) => {
 router.get("/api/users", async (ctx, next) => {
   ctx.body = [
     { name: "zzzz", age: 50 },
-    { name: "ssss", age: 50 },
+    { name: "ss", age: 50 },
     { name: "kk", age: 30 },
     { name: "ff", age: 30 },
     { name: "tt", age: 0 },
