@@ -5,7 +5,7 @@ git pull
 
 cd react-auto
 
-npm config set registry https://registry.npm.taobao.org/ && npm i && npm run bild
+npm config set registry https://registry.npm.taobao.org/ && npm i && npm run build
 
 cd ..
 
